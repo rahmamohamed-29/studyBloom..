@@ -208,7 +208,7 @@
         margin: 10px auto;
     }
     .formDate img{
-        transform: translateX(-150px);
+        transform: translateX(-120px);
     }
 
     .dataUser {
@@ -226,14 +226,14 @@
         font-size: 12px;
     }
     .inputData{
-        width:220px;
+        width:210px;
     }
     .message{
         width:330px;
     }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 386px) {
     .links{
         transform: translateX(30px);
     }
@@ -247,13 +247,16 @@
         transform: translateX(8px);
     }
     .formDate img{
-        transform: translate(-220px, -120px);
+        transform: translate(-235px, -120px);
     }
     .message{
-        width:240px;
+        width:270px;
     }
     .send{
         width:130px;
         transform: translateX(65px);
+    }
+    .inputData{
+        width:280px;
     }
 }
