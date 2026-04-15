@@ -1,0 +1,259 @@
+@media (max-width: 1050px) {
+    .links {
+        gap: 10px;
+    }
+
+    .head {
+        width: 100%;
+    }
+
+    .photo {
+        width: 30%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .title1 {
+        font-size: 28px;
+    }
+
+    .description1 {
+        font-size: 20px;
+    }
+
+
+    .formDate {
+
+        width: 80%;
+        margin: 20px auto;
+        justify-content: space-around;
+        transform: translateX(10px);
+    }
+
+    .formDate img {
+        transform: translateX(-200px)
+    }
+
+    .send {
+        font-size: 18px;
+    }
+
+    .end {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .inputData {
+        width: 450px;
+    }
+}
+
+/*-----------------------------*/
+/*-----------------------------*/
+/*-----------------------------*/
+@media (max-width: 850px) {
+
+    .links {
+        gap: 10px;
+    }
+
+    .head {
+        width: 100%;
+    }
+
+    .photo {
+        width: 30%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .title1 {
+        font-size: 28px;
+    }
+
+    .description1 {
+        font-size: 20px;
+    }
+
+
+    .formDate {
+
+        width: 80%;
+        margin: 20px auto;
+        justify-content: space-around;
+        transform: translateX(10px);
+    }
+
+    .formDate img {
+        transform: translateX(-200px);
+    }
+
+    .send {
+        font-size: 18px;
+    }
+
+    .end {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .inputData {
+        width: 450px;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .links {
+        gap: 10px;
+    }
+
+    .photo {
+        width: 30%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .title1 {
+        font-size: 28px;
+    }
+
+    .description1 {
+        font-size: 20px;
+    }
+
+    .formDate {
+        width: 80%;
+        margin: 20px auto;
+        justify-content: space-around;
+    }
+
+    .formDate img{
+        transform: translateX(-180px);
+    }
+
+    .send {
+        font-size: 18px;
+    }
+
+    .end {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    .inputData{
+        width:340px;
+    }
+}
+
+@media (max-width: 480px) {
+    .head {
+        height: 50px;
+    }
+
+    .links {
+        gap: 7px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .minilogo {
+        display: block;
+        width: 30px;
+        margin-left: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-right: 5px;
+    }
+
+    .section {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .title1 {
+        font-size: 30px;
+    }
+
+    .describtion1 {
+        font-size: 14px;
+    }
+
+    .send {
+        font-size: 14px;
+    }
+
+    .newCourse1 {
+        flex-direction: column;
+        gap: 0px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .photo {
+        width: 30%;
+    }
+
+    .add2 {
+        margin: 10px auto;
+
+    }
+
+    .formDate {
+        padding: 20px;
+        margin: 10px auto;
+    }
+    .formDate img{
+        transform: translateX(-150px);
+    }
+
+    .dataUser {
+        gap: 15px;
+        font-size: 20px;
+    }
+
+    .inputData,
+    .message {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .end {
+        font-size: 12px;
+    }
+    .inputData{
+        width:220px;
+    }
+    .message{
+        width:330px;
+    }
+}
+
+@media(max-width: 380px) {
+    .links{
+        transform: translateX(30px);
+    }
+    .item{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 6px;
+    }
+    .formDate {
+        padding-top: 100px;
+        transform: translateX(8px);
+    }
+    .formDate img{
+        transform: translate(-220px, -120px);
+    }
+    .message{
+        width:240px;
+    }
+    .send{
+        width:130px;
+        transform: translateX(65px);
+    }
+}
