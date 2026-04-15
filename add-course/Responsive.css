@@ -48,9 +48,6 @@
         width: 450px;
     }
 }
-
-/*-----------------------------*/
-/*-----------------------------*/
 /*-----------------------------*/
 @media (max-width: 850px) {
 
@@ -75,8 +72,6 @@
     .description1 {
         font-size: 20px;
     }
-
-
     .formDate {
 
         width: 80%;
@@ -173,6 +168,7 @@
     .section {
         font-size: 12px;
         font-weight: 500;
+        white-space: nowrap;
     }
 
     .title1 {
